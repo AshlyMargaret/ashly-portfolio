@@ -270,6 +270,9 @@ main{
     align-items: center;
     justify-content: center;
 }
+.service_text p{
+    line-height: 1.5rem;
+}
 
 footer{
     margin-top: 30px;
@@ -434,6 +437,13 @@ footer{
 
 }
 
+.about_sec p{
+    font-size: 13px;
+  }
+
+  .service_text p{
+    font-size: 13px;
+  }
 .footer_content{
     flex-direction: column;
     gap:15px
@@ -445,4 +455,43 @@ footer{
 .back-to-top i {
   padding: 3px 3px;
 }
+}
+
+@media screen and (max-width: 375px){
+    .nav_list {
+        width: 325px;
+       
+
+}
+.back-to-top{
+    right: 30px;
+}
+.service_box1, .service_box2, .service_box3{
+    width: 330px;
+  }
+  .left_sec_main h2 {
+    font-size: 13px;
+}
+.left_sec_main h1{
+    font-size: 18px;
+}
+h3{
+    font-size: 13px;
+}
+h2{
+    font-size: 16px;
+}
+h4{
+    font-size: 13px;
+}
+.social_sec i {
+    font-size: 20px;
+}
+.btn_rsume {
+    padding: 6px 7px;
+    font-size: 13px;
+}
+
+
+
 }

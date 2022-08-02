@@ -292,7 +292,16 @@ footer{
     gap: 10px;
   }
   
+  
 }
+
+@media screen and (max-width: 576px){
+  .container {
+    width: 75%;
+  }
+}
+
+
 
 @media screen and (max-width: 414px){
   .footer_content{
@@ -306,11 +315,26 @@ footer{
   .back-to-top i {
     padding: 3px 3px;
   }
+  .image_container img {
+    width: 300px;
+}
+
+
   }
 
   @media screen and (max-width: 375px){
-    .image_container img{
-      width: 300px;
-      
-    }
+    .image_container img {
+      width: 250px;
+  }
+  .btn_bck {
+    padding: 5px 25px;
+}
+.social_sec i {
+  font-size: 20px;
+}
+.btn_rsume {
+  padding: 6px 7px;
+  font-size: 13px;
+}
+
   }

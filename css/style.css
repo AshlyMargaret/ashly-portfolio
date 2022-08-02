@@ -95,6 +95,28 @@ header{
     justify-content: space-between;
     
 }
+/* .togle_bar{
+    width: 20px;
+    display: none;
+}
+
+#nav_list_id{
+    border: 1px solid wheat;
+    border-radius: 25px;
+    display: none; 
+
+}
+
+.nav_list_hide{
+   
+    padding: 10px 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+    align-items: center;
+} */
 
 main{
     margin-top: 30px;
@@ -136,11 +158,7 @@ main{
     padding-top: 30px;
     padding-bottom: 60px;
     margin-bottom: 60px;
-
    
-    
-    
-    
 }
 .about_sec_text{
    
@@ -413,10 +431,10 @@ footer{
     
 
 @media screen and (max-width: 576px){
-    header{
+     header{
         flex-direction: column;
         gap:10px
-    }
+    } 
     .left_sec_main h2 {
        font-size: 17px;
 }
@@ -428,10 +446,7 @@ footer{
 }
 
 @media screen and (max-width: 414px){
-    .nav_list{
-        width: 350px;
-        font-size: 11px;
-    }
+    
     .left_sec_main {
         padding-bottom: 10px;
 
@@ -454,6 +469,20 @@ footer{
 }
 .back-to-top i {
   padding: 3px 3px;
+}
+.nav_list{
+    width: 300px;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.logo_sec{
+    align-self: flex-start;
+}
+.back-to-top {
+right: 50px;
+
 }
 }
 
@@ -491,7 +520,15 @@ h4{
     padding: 6px 7px;
     font-size: 13px;
 }
-
+.nav_list{
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.logo_sec{
+    align-self: flex-start;
+}
 
 
 }

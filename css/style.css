@@ -484,6 +484,11 @@ footer{
 right: 50px;
 
 }
+.service_box1, .service_box2, .service_box3{
+    width: 200px;
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (max-width: 375px){
@@ -496,7 +501,8 @@ right: 50px;
     right: 30px;
 }
 .service_box1, .service_box2, .service_box3{
-    width: 330px;
+    width: 200px;
+    flex-direction: column;
   }
   .left_sec_main h2 {
     font-size: 13px;

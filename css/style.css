@@ -469,6 +469,7 @@ footer{
 }
 .back-to-top i {
   padding: 3px 3px;
+  font-size: 11px;
 }
 .nav_list{
     width: 300px;
@@ -485,10 +486,32 @@ right: 50px;
 
 }
 .service_box1, .service_box2, .service_box3{
-    width: 200px;
+    width: 300px;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
+  .service_img{
+    border: none;
+    width: 200px;
+   
+  }
+
+  .service_text{
+    width: 200px;
+    
+  }
+  .service_img i {
+font-size: 40px;
+
+}
+h4{
+    align-self: center;
+}
+.service_text p{
+    text-align: center;
+}
 }
 
 @media screen and (max-width: 375px){
@@ -547,6 +570,7 @@ h4{
     .service_box1, .service_box2, .service_box3 {
         width: 200px;
         flex-direction: column;
+        
     }
     .service_img{
         width: 140px;

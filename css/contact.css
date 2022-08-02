@@ -291,6 +291,10 @@ footer{
     grid-template-columns: 1fr;
     gap: 10px;
   }
+  .social_sec i {
+    font-size: 22px;
+    
+}
   
   
 }
@@ -299,6 +303,10 @@ footer{
   .container {
     width: 75%;
   }
+  .social_sec i {
+    font-size: 22px;
+    
+}
 }
 
 
@@ -306,17 +314,25 @@ footer{
 @media screen and (max-width: 414px){
   .footer_content{
       flex-direction: column;
-      gap:15px
+      gap:20px
   }
   .btn_rsume {
       padding: 8px 10px;
-      font-size: 15px;   
+      font-size: 13px;   
   }
+  .btn_bck {
+    padding: 3px 20px;
+    font-size: 13px;
+}
   .back-to-top i {
     padding: 3px 3px;
   }
   .image_container img {
     width: 300px;
+}
+.social_sec i {
+  font-size: 22px;
+  
 }
 
 
@@ -335,6 +351,10 @@ footer{
 .btn_rsume {
   padding: 6px 7px;
   font-size: 13px;
+}
+.social_sec i {
+  font-size: 22px;
+  
 }
 
   }

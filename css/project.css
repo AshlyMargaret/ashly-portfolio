@@ -258,6 +258,10 @@ footer{
     .portfolio_sec_container{
         grid-template-columns: 1fr 1fr;
     }
+    .social_sec i {
+        font-size: 22px;
+        
+    }
     
 }
     
@@ -266,6 +270,10 @@ footer{
 
     .portfolio_sec_container{
         grid-template-columns: 1fr;
+    }
+    .social_sec i {
+        font-size: 22px;
+        
     }
     
 }
@@ -282,6 +290,15 @@ footer{
     .back-to-top i {
       padding: 3px 3px;
     }
+    .btn_bck {
+        padding: 5px 30px;
+        font-size: 13px;
+    }
+    .social_sec i {
+        font-size: 22px;
+        
+    }
+
     }
 
 

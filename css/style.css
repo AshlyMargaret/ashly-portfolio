@@ -446,10 +446,22 @@ footer{
 }
 
 @media screen and (max-width: 414px){
+
+
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
     
     .left_sec_main {
         padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
 
+}
+.about_sec{
+    gap:30px
 }
 
 .about_sec p{
@@ -461,7 +473,7 @@ footer{
   }
 .footer_content{
     flex-direction: column;
-    gap:15px
+    gap:20px
 }
 .btn_rsume {
     padding: 8px 10px;
@@ -511,6 +523,13 @@ h4{
 }
 .service_text p{
     text-align: center;
+}
+
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
 }
 }
 

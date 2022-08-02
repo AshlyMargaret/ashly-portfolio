@@ -539,7 +539,11 @@ h4{
     }
 
     .service_box1, .service_box2, .service_box3 {
-        width: 280px;
+        width: 200px;
+        flex-direction: column;
+    }
+    .service_img{
+        width: 140px;
     }
     .left_sec_main h2 {
         font-size: 10px;

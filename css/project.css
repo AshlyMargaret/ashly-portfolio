@@ -253,6 +253,14 @@ footer{
 
 /* Media Query  */
 
+@media screen and (max-width: 1024px){
+.portfolio_sec_container {
+    grid-template-columns: 1fr 1fr;
+}
+   
+}
+
+
 @media screen and (max-width: 767px){
 
     .portfolio_sec_container{

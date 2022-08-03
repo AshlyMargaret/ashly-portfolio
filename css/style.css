@@ -30,20 +30,13 @@ body {
     display: none;
     color: white;
 }
+#bar:hover,
+#bar:active,
+#bar:focus {
+    color: black;
+    outline: none;
 
-/* #bar:visited {
-    color: red;
-    } */
-
-    /* #bar:active{
-        color: black;
-    } */
-
-    #bar:hover{
-        color: brown;
-    }
-
-
+}
 
 .nav_list_hide{
     display: none;

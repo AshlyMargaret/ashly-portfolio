@@ -468,6 +468,7 @@ footer{
     }
     .nav_list_hide {   
         width: 370px;
+        right: 0;
     }
     main{
         flex-direction: column-reverse;

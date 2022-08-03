@@ -22,21 +22,20 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Js File -->
+    <script src="/js/index.js"></script>
 
+    <!--  Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script>
-        
+<script>  
         $(document).ready(function(){
   $("#bar").click(function(){
     $(".nav_list_hide").slideToggle();
   });
 });
-
-    </script>
-
+ </script>
 <!-- Script Jquery End ***************-->
-
 
 </head>
 <body>
@@ -63,8 +62,8 @@
            <!-- hidden menu starts  ******************************************-->
            <div>
             <!-- <img src="/img/bars-solid.svg" alt="bars" class="bar"> -->
-            <i  id="bar" class="fa fa-bars"></i>
-    
+            <!-- <i  id="bar" class="fa fa-bars" onclick="document.getElementById('bar').style.color = 'red'"></i> -->
+            <i  id="bar" class="fa fa-bars" onclick="colorChange()"></i>
            </div>
            <div class="nav_list_hide">
             <ul>
@@ -161,14 +160,7 @@
             </div>
 
         </section>
-
-        <section class="skill_sec">
-
-
-        </section>
-       
-
-        
+  
 
         <footer>
             <div class="footer_content">
@@ -184,16 +176,10 @@
                 </div>
             </div>
            
-        </footer>
-       
-
-  
+        </footer> 
 <!-- Back to top button -->
 <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        
-        
-
-    
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+   
 </body>
 </html>

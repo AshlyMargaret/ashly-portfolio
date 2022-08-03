@@ -30,13 +30,7 @@ body {
     display: none;
     color: white;
 }
-#bar:hover,
-#bar:active,
-#bar:focus {
-    color: black;
-    outline: none;
 
-}
 
 .nav_list_hide{
     display: none;

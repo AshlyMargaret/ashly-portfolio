@@ -145,6 +145,35 @@ main{
     border-radius: 50px;
 }
 
+/* overlay text css */
+
+.hero_container{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    padding: 15px 15px;
+    width: 280px;
+    bottom: 46px;
+    left: 135px;
+    border-radius: 25px;
+    opacity: 0; 
+   
+    
+}
+.hero_container:hover .overlay{
+    opacity: 1;
+}
+
+.text_overlay{
+    font-size: 14px;
+    color: white;
+    font-style: italic;   
+}
+/* overlay text css ends*/
+
+
 .about_sec{
     width: 90%;
     margin: 0 auto;
@@ -336,6 +365,13 @@ footer{
 /* Media Query  Starts */
 
 
+@media screen and (max-width: 1024px){
+    .overlay {
+        bottom: 34px;
+        left: 74px;  
+}
+}
+
 @media screen and (max-width: 992px){
   
     .nav_list_hide ul li{
@@ -358,6 +394,11 @@ footer{
 
 @media screen and (max-width: 767px){
 
+    .overlay {
+        bottom: 12px;
+        left: 24px;
+    }
+
     .nav_list {
         width: 495px;
         font-size: 13px;
@@ -378,6 +419,14 @@ footer{
 
 @media screen and (max-width: 576px){
 
+    .overlay {
+        bottom: 15px;
+        left: -18px;
+    }
+    .text_overlay {
+        font-size: 11px;
+    }
+
     main{
         flex-direction: column-reverse;
         align-items: center;
@@ -396,6 +445,11 @@ footer{
 
 
 @media screen and (max-width: 414px){
+    .overlay {
+        bottom: -4px;
+        left: -50px;
+        padding: 10px 7px;
+    }
     main{
         flex-direction: column-reverse;
         align-items: center;
@@ -482,6 +536,13 @@ right: 20px;
 
 
 @media screen and (max-width: 375px){
+
+    .overlay {
+        bottom: -10px;
+        left: -63px;
+        padding: 11px 9px;
+    }
+
     .nav_list {
         width: 325px;     
 
@@ -528,6 +589,12 @@ h4{
 
 
 @media screen and (max-width: 320px){
+
+    .overlay {
+        bottom: -20px;
+        left: -81px;
+        padding: 11px 9px;
+    }
     .nav_list {
         width: 200px;
     }
